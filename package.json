@@ -1,0 +1,24 @@
+{
+  "name": "alexa-template",
+  "version": "1.0.0",
+  "description": "Basic NodeJs Alexa template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valerianpereira/alexa-template.git"
+  },
+  "keywords": [],
+  "author": "Valerian Pereira",
+  "private": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valerianpereira/alexa-template/issues"
+  },
+  "homepage": "https://github.com/valerianpereira/alexa-template#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.24"
+  }
+}
