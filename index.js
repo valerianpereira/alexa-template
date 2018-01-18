@@ -19,6 +19,7 @@ exports.handler = function(event, context, callback){
     alexa.execute();
 } 
 
+//Handlers to manage the requests
 var handlers = {
     'LaunchRequest': function(){
         this.emit('GetCompliment');
