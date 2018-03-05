@@ -12,6 +12,7 @@ var COMPLIMENT_LIST = [
     "If you were a food, you'd be an endless supply of CheeseCake"
 ];
 
+// Core handler
 exports.handler = function(event, context, callback){
     var alexa = Alexa.handler(event, context);
     alexa.APP_ID = APP_ID;
