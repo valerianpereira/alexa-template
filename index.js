@@ -37,6 +37,7 @@ var handlers = {
         this.emit(":tellWithCard", speechOutput, SKILL_NAME, randomCompliment);
 
     },
+    // Alexa Defalut Intents
     'AMAZON.HelpIntent': function(){
         var speechOutput = "You can say give me a compliment or you can say exit..";
         var reprompt = "What can I help you with ?";
