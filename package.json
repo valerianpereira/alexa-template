@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/valerianpereira/alexa-template#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.24"
+    "alexa-sdk": "^1.0.24",
+    "lodash": "^4.17.15"
   }
 }
